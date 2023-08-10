@@ -23,3 +23,29 @@ code {
   background-color: var(--ep-color-primary-light-9);
   color: var(--ep-color-primary);
 }
+.header {
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+  align-items: center;
+  .logo {
+    width: 220px;
+  }
+}
+.header-right {
+  width: calc(100% - 350px);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+  align-items: center;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.avatar-text {
+  line-height: 28px;
+}
+.aside {
+  background-color: darkslategray;
+}
