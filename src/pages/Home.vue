@@ -2,7 +2,7 @@
   <div class="common-layout">
     <el-container>
       <el-header class="header">
-        <div class="logo">摩美得气血和制药管理系统</div>
+        <div class="logo">某系统</div>
         <div class="header-right">
           <el-menu
             :default-active="activeIndex"
