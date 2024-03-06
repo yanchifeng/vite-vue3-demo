@@ -28,7 +28,6 @@
         </div>
       </el-header>
       <el-container>
-        <el-aside width="200px" class="aside">Aside</el-aside>
         <el-main>
           <router-view></router-view>
         </el-main>
@@ -52,6 +51,8 @@ const handleSelect = (e:any) => {
 }
 </script>
 
-<style>
-
+<style scoped>
+.el-menu-demo {
+  flex: 1;
+}
 </style>

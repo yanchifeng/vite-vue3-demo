@@ -10,6 +10,7 @@
     "axios": "^1.4.0",
     "element-plus": "^2.2.32",
     "pinia": "^2.1.6",
+    "pinia-plugin-persist": "^1.0.0",
     "vue": "^3.0.5",
     "vue-router": "^4.0.6",
     "vue-socket.io": "^3.0.10"
